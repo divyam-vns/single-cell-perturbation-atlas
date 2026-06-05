@@ -1,0 +1,22 @@
+name: sc-perturbation-atlas
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - scanpy
+      - anndata
+      - scvi-tools
+      - cellxgene-census
+      - pandas
+      - numpy
+      - scikit-learn
+      - scipy
+      - matplotlib
+      - seaborn
+      - umap-learn
+      - statsmodels
